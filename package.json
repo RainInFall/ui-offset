@@ -1,6 +1,6 @@
 {
   "name": "ui-offset",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "UI offset",
   "main": "index.js",
   "scripts": {
