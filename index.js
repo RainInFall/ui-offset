@@ -56,7 +56,7 @@ Offset.moveleft = function(x) {
 };
 
 Offset.moveright = function(x) {
-  return Offest(x, 0);
+  return Offset(x, 0);
 };
 
 module.exports = Offset;

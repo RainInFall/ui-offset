@@ -60,3 +60,27 @@ describe('Offset#equals', function() {
     expect(other.equals(one)).toBe(false);
   });
 });
+
+describe('Offset.moveup', function() {
+  it('should correct', function() {
+    expect(Offset.moveup(1).equals(Offset(0, -1))).toBe(true);
+  });
+});
+
+describe('Offset.moveup', function() {
+  it('should correct', function() {
+    expect(Offset.movedown(1).equals(Offset(0, 1))).toBe(true);
+  });
+});
+
+describe('Offset.moveup', function() {
+  it('should correct', function() {
+    expect(Offset.moveleft(1).equals(Offset(-1, 0))).toBe(true);
+  });
+});
+
+describe('Offset.moveup', function() {
+  it('should correct', function() {
+    expect(Offset.moveright(1).equals(Offset(1, 0))).toBe(true);
+  });
+});
